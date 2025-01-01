@@ -1,4 +1,4 @@
-# Build a Simple Recommender System 
+# Build a Simple Recommender System; Movies
 
 # Overview
 A content-based movie recommendation system designed to suggest movies based on features like genre, story, and lead studio. It leverages TF-IDF (Term Frequency-Inverse Document Frequency) and Cosine Similarity to evaluate and recommend movies with similar characteristics.
