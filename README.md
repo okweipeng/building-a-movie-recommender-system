@@ -24,14 +24,14 @@ A **content-based movie recommendation system** designed to suggest movies based
 
 
 2. **Create the TF-IDF matrix:**
-   ```python  
-tfidf_matrix = TfidfVectorizer().fit_transform(df['combined_features'])  
-cosine_sim = cosine_similarity(tfidf_matrix)  
+   ```python
+   tfidf_matrix = TfidfVectorizer().fit_transform(df['combined_features'])
+   cosine_sim = cosine_similarity(tfidf_matrix)  
 
 4. **Generate movie recommendations:**
-   ```python  
-recommended_movies = recommend_movies('Harry Potter and the Order of the Phoenix', cosine_sim)  
-print(recommended_movies)  
+   ```python
+   recommended_movies = recommend_movies('Harry Potter and the Order of the Phoenix', cosine_sim)
+   print(recommended_movies)  
 
 ---
 
@@ -45,7 +45,7 @@ LeadStudio
 RottenTomatoes
 AudienceScore
 Budget
-And more...
+And so on...
 
 ---
 
