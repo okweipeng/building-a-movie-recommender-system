@@ -11,28 +11,8 @@ A **content-based movie recommendation system** designed to suggest movies based
 - **Content-based Recommendations**: Suggest movies by analyzing textual data such as **genre**, **story**, and **lead studio**.  
 - **Data Preprocessing**: Handling missing/null values, normalization of numerical features, and duplicate removal.  
 - **TF-IDF Vectorization**: Converts textual data into numerical representations.  
-- **Cosine Similarity**: Measures similarity between movies based on their feature vectors.  
-
----
-
-# **Usage**  
-
-1. **Load and preprocess the dataset**:  
-   ```python  
-   df = pd.read_csv(url)  
-   df = preprocess_midi(df)  
-
-
-2. **Create the TF-IDF matrix:**
-   ```python
-   tfidf_matrix = TfidfVectorizer().fit_transform(df['combined_features'])
-   cosine_sim = cosine_similarity(tfidf_matrix)  
-
-4. **Generate movie recommendations:**
-   ```python
-   recommended_movies = recommend_movies('Harry Potter and the Order of the Phoenix', cosine_sim)
-   print(recommended_movies)  
-
+- **Cosine Similarity**: Measures similarity between movies based on their feature vectors.
+  
 ---
 
 # **Dataset**
