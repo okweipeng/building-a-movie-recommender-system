@@ -17,20 +17,15 @@ A **content-based movie recommendation system** designed to suggest movies based
 
 # **Dataset**
 
-Dataset Source: Reisner on GitHub
+Dataset Source via URL; Reisner on GitHub
 
 Columns included:
 
 Genre
-
 Story
-
 LeadStudio
-
 RottenTomatoes
-
 AudienceScore
-
 Budget
 
 And so on...
