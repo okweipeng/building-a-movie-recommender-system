@@ -1,4 +1,4 @@
-# **Build a Simple Recommender System: Movies**
+# **Building Recommender System: Movies**
 
 ---
 
